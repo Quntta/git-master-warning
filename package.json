@@ -1,0 +1,25 @@
+{
+  "name": "git-master-warning",
+  "version": "1.0.0",
+  "description": "Display a warning message when executing git commands on the master branch",
+  "main": "index.js",
+  "bin": {
+    "git": "./bin/git-wrapper.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "master",
+    "warning",
+    "branch",
+    "safety"
+  ],
+  "author": "",
+  "license": "MIT",
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
